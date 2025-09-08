@@ -1033,6 +1033,10 @@ export const PropagandaConfig = {
     { src: "images/propaganda/image14.png", credit: "Credits: ChenShohry1" },
     { src: "images/propaganda/image15.png", credit: "Credits: kazxrevenge" },
     { src: "images/propaganda/image16.png", credit: "Credits: kazxrevenge" },
+    { src: "images/propaganda/image17.png", credit: "Credits: the_rainbowman63" },
+    { src: "images/propaganda/image18.png", credit: "Credits: the_rainbowman63, @seijins, @uyjd" },
+    { src: "images/propaganda/image19.png", credit: "Credits: @teleportedduck" },
+
   ],
 
   videos: [
@@ -1042,6 +1046,8 @@ export const PropagandaConfig = {
     { src: "videos/asf4.mp4", credit: "@kaylenyy" },
     { src: "videos/asf5.mp4", credit: "mintyfreshoreo, C6mpact" },
     { src: "videos/asf6.mp4", credit: "mintyfreshoreo" },
+    { src: "videos/asoc1.mp4", credit: "mintyfreshoreo" },
+
   ],
 
   sections: {
@@ -1066,7 +1072,7 @@ export const PropagandaConfig = {
       title: "VIDEO GALLERY",
       accentWord: "GALLERY",
       subtitle:
-        "Dynamic video content showcasing Special Forces training, operations, and capabilities",
+        "Dynamic video content showcasing Army Special Operations Command Special Forces training, operations, and capabilities",
     },
   },
 
