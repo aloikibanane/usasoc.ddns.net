@@ -258,7 +258,6 @@ export default function Propaganda() {
         </div>
       </section>
 
-      {/* HALL OF FAME */}
       <section className="py-24 professional-gradient">
         <div className="max-w-7xl mx-auto px-6 space-y-16">
           <motion.div

@@ -1041,6 +1041,7 @@ export const PropagandaConfig = {
     { src: "videos/asf3.mp4", credit: "mintyfreshoreo, C6mpact" },
     { src: "videos/asf4.mp4", credit: "@kaylenyy" },
     { src: "videos/asf5.mp4", credit: "mintyfreshoreo, C6mpact" },
+    { src: "videos/asf6.mp4", credit: "mintyfreshoreo" },
   ],
 
   sections: {
