@@ -43,6 +43,29 @@ export default function Contact() {
               {ContactConfig.hero.subtitle}
             </p>
           </motion.div>
+          <motion.div
+            className="mt-16 text-center"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.3 }}
+            viewport={{ once: true }}
+          >
+            <div className="glow-border p-8 bg-asf-dark/60 backdrop-blur-sm rounded-xl inline-block">
+              <h3 className="text-2xl font-rajdhani font-bold text-asf-accent mb-4">
+                {ContactConfig.sections.readyToConnect.title}
+              </h3>
+              <p className="text-asf-gray-light mb-6 max-w-md">
+                {ContactConfig.sections.readyToConnect.subtitle}
+              </p>
+              <div className="flex items-center justify-center space-x-2">
+                <div className="w-2 h-2 bg-asf-accent rounded-full animate-pulse"></div>
+                <span className="text-asf-accent font-rajdhani font-bold">
+                  {ContactConfig.sections.readyToConnect.motto}
+                </span>
+                <div className="w-2 h-2 bg-asf-accent rounded-full animate-pulse"></div>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </section>
 
@@ -361,30 +384,6 @@ export default function Contact() {
               </div>
             </motion.div>
           </div>
-
-          <motion.div
-            className="mt-16 text-center"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.3 }}
-            viewport={{ once: true }}
-          >
-            <div className="glow-border p-8 bg-asf-dark/60 backdrop-blur-sm rounded-xl inline-block">
-              <h3 className="text-2xl font-rajdhani font-bold text-asf-accent mb-4">
-                {ContactConfig.sections.readyToConnect.title}
-              </h3>
-              <p className="text-asf-gray-light mb-6 max-w-md">
-                {ContactConfig.sections.readyToConnect.subtitle}
-              </p>
-              <div className="flex items-center justify-center space-x-2">
-                <div className="w-2 h-2 bg-asf-accent rounded-full animate-pulse"></div>
-                <span className="text-asf-accent font-rajdhani font-bold">
-                  {ContactConfig.sections.readyToConnect.motto}
-                </span>
-                <div className="w-2 h-2 bg-asf-accent rounded-full animate-pulse"></div>
-              </div>
-            </div>
-          </motion.div>
         </div>
       </section>
     </div>
