@@ -115,18 +115,18 @@ export const ContactConfig = {
   overseer: [
     {
       rank: "General",
-      name: "NeroOvuh",
+      name: "FairwelIs",
       position: "Commanding General",
       roblox:
-        "https://www.roblox.com/users/248480265/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/2326467240/profile?friendshipSourceType=PlayerSearch",
       insignia: "images/ranks/officer/O10.png",
     },
     {
       rank: "Lieutenant General",
-      name: "FairwelIs",
+      name: "NasDaily_Alpha",
       position: "Deputy Commanding General",
       roblox:
-        "https://www.roblox.com/users/2326467240/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/553357381/profile?friendshipSourceType=PlayerSearch",
       insignia: "images/ranks/officer/O9.png",
     },
     {
@@ -139,10 +139,10 @@ export const ContactConfig = {
     },
     {
       rank: "Major General",
-      name: "NasDaily_Alpha",
+      name: "ACertain_Nobody",
       position: "Chief of Staff",
       roblox:
-        "https://www.roblox.com/users/553357381/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/85610835/profile?friendshipSourceType=PlayerSearch",
       insignia: "images/ranks/officer/O8.png",
     },
   ],
@@ -182,9 +182,9 @@ export const ContactConfig = {
         {
           position: "Group Commanding Officer",
           rank: "Colonel",
-          name: "KashVoylve",
+          name: "N/A",
           roblox:
-            "https://www.roblox.com/users/995137288/profile?friendshipSourceType=PlayerSearch",
+            "",
         },
         {
           position: "Group Executive Officer",
@@ -223,9 +223,9 @@ export const ContactConfig = {
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "0rangecat50",
+          name: "N/A",
           roblox:
-            "https://www.roblox.com/users/104156319/profile?friendshipSourceType=PlayerSearch",
+            "",
         },
       ],
     },
@@ -249,9 +249,9 @@ export const ContactConfig = {
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "Airport_imdeleteduo2",
+          name: "N/A",
           roblox:
-            "https://www.roblox.com/users/2667322014/profile?friendshipSourceType=PlayerSearch",
+            "",
         },
       ],
     },
