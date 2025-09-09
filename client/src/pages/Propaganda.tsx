@@ -5,7 +5,10 @@ import { Play } from "lucide-react";
 import { PropagandaConfig } from "../../../config/index";
 
 export default function Propaganda() {
-  const [selectedImage, setSelectedImage] = useState<{ src: string; credit: string } | null>(null);
+  const [selectedImage, setSelectedImage] = useState<{
+    src: string;
+    credit: string;
+  } | null>(null);
 
   // Independent expand state per card (index -> boolean)
   const [expanded, setExpanded] = useState<Record<number, boolean>>({});
@@ -15,13 +18,17 @@ export default function Propaganda() {
       <section className="py-24 relative overflow-hidden">
         <motion.div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${PropagandaConfig.hero.backgroundImage})` }}
+          style={{
+            backgroundImage: `url(${PropagandaConfig.hero.backgroundImage})`,
+          }}
           initial={{ opacity: 0, scale: 1.1 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
         />
 
-        <div className={`absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/90`}>
+        <div
+          className={`absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/90`}
+        >
           <div className="absolute top-left w-96 h-96 bg-asf-accent/10 rounded-full blur-3xl" />
           <div className="absolute bottom-right w-64 h-64 bg-asf-accent/5 rounded-full blur-3xl" />
         </div>
@@ -73,7 +80,9 @@ export default function Propaganda() {
                     <h3 className="font-rajdhani font-bold text-lg text-asf-accent mb-2">
                       {stat.label}
                     </h3>
-                    <p className="text-3xl font-rajdhani font-black text-white">{value}</p>
+                    <p className="text-3xl font-rajdhani font-black text-white">
+                      {value}
+                    </p>
                   </div>
                 </div>
               );
@@ -95,7 +104,8 @@ export default function Propaganda() {
               {PropagandaConfig.sections.missionHighlights.title
                 .split(" ")
                 .map((word) =>
-                  word === PropagandaConfig.sections.missionHighlights.accentWord ? (
+                  word ===
+                  PropagandaConfig.sections.missionHighlights.accentWord ? (
                     <span key={word} className="text-asf-accent">
                       {word}{" "}
                     </span>
@@ -120,14 +130,22 @@ export default function Propaganda() {
               viewport={{ once: true }}
             >
               <div className="w-full aspect-video rounded-lg overflow-hidden shadow-lg bg-asf-dark">
-                <video controls className="w-full h-full object-cover bg-asf-dark" preload="metadata">
+                <video
+                  controls
+                  className="w-full h-full object-cover bg-asf-dark"
+                  preload="metadata"
+                >
                   <source src={highlight.videoSrc} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
 
-              <h3 className="text-2xl font-rajdhani font-bold text-asf-accent mb-2">{highlight.title}</h3>
-              <p className="text-lg text-asf-gray-light max-w-2xl mx-auto">{highlight.description}</p>
+              <h3 className="text-2xl font-rajdhani font-bold text-asf-accent mb-2">
+                {highlight.title}
+              </h3>
+              <p className="text-lg text-asf-gray-light max-w-2xl mx-auto">
+                {highlight.description}
+              </p>
             </motion.div>
           ))}
         </div>
@@ -135,7 +153,9 @@ export default function Propaganda() {
 
       <section className="py-24 bg-asf-black relative overflow-hidden">
         <div className="absolute inset-0">
-          <div className={`absolute top-right w-64 h-64 bg-asf-accent/5 rounded-full blur-3xl`} />
+          <div
+            className={`absolute top-right w-64 h-64 bg-asf-accent/5 rounded-full blur-3xl`}
+          />
         </div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <motion.div
@@ -149,7 +169,8 @@ export default function Propaganda() {
               {PropagandaConfig.sections.visualGallery.title
                 .split(" ")
                 .map((word) =>
-                  word === PropagandaConfig.sections.visualGallery.accentWord ? (
+                  word ===
+                  PropagandaConfig.sections.visualGallery.accentWord ? (
                     <span key={word} className="text-asf-accent">
                       {word}{" "}
                     </span>
@@ -186,7 +207,9 @@ export default function Propaganda() {
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <p className="text-xs text-asf-gray-light font-medium">{image.credit}</p>
+                    <p className="text-xs text-asf-gray-light font-medium">
+                      {image.credit}
+                    </p>
                   </div>
                 </div>
 
@@ -238,20 +261,32 @@ export default function Propaganda() {
                 viewport={{ once: true }}
               >
                 <div className="aspect-video rounded-lg overflow-hidden mb-4">
-                  <video controls className="w-full h-full object-cover bg-asf-gray-dark" preload="metadata">
+                  <video
+                    controls
+                    className="w-full h-full object-cover bg-asf-gray-dark"
+                    preload="metadata"
+                  >
                     <source src={video.src} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 </div>
 
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center space-x-3 mb-2">
                   <div className="w-8 h-8 p-2 bg-asf-accent/10 rounded-lg">
                     <Play className="w-full h-full text-asf-accent" />
                   </div>
                   <div>
-                    <p className="text-sm text-asf-gray-light font-medium">{video.credit}</p>
+                    <p className="text-sm text-asf-gray-light font-medium">
+                      {video.credit}
+                    </p>
                   </div>
                 </div>
+
+                {video.quote && (
+                  <p className="text-sm text-asf-gray-light italic mt-1">
+                    {video.quote}
+                  </p>
+                )}
               </motion.div>
             ))}
           </div>
@@ -268,11 +303,19 @@ export default function Propaganda() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-rajdhani font-black mb-6">
-              {PropagandaConfig.hallOfFame.title.split(PropagandaConfig.hallOfFame.accentWord)[0]}
-              <span className="text-asf-accent">{PropagandaConfig.hallOfFame.accentWord}</span>
+              {
+                PropagandaConfig.hallOfFame.title.split(
+                  PropagandaConfig.hallOfFame.accentWord
+                )[0]
+              }
+              <span className="text-asf-accent">
+                {PropagandaConfig.hallOfFame.accentWord}
+              </span>
             </h2>
             <div className="w-24 h-1 bg-asf-accent mx-auto mb-6"></div>
-            <p className="text-xl text-asf-gray-light max-w-3xl mx-auto">{PropagandaConfig.hallOfFame.subtitle}</p>
+            <p className="text-xl text-asf-gray-light max-w-3xl mx-auto">
+              {PropagandaConfig.hallOfFame.subtitle}
+            </p>
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -288,13 +331,21 @@ export default function Propaganda() {
                 <div className="absolute inset-0 bg-gradient-to-br from-asf-accent/5 via-transparent to-transparent pointer-events-none rounded-xl"></div>
 
                 <div className="relative z-10 text-center">
-                  <h3 className="font-rajdhani font-bold text-2xl text-asf-accent mb-2">{member.username}</h3>
+                  <h3 className="font-rajdhani font-bold text-2xl text-asf-accent mb-2">
+                    {member.username}
+                  </h3>
 
                   <p className="text-asf-gray-light text-sm mb-4">
-                    {expanded[index] || member.description.length <= PropagandaConfig.hallOfFame.previewLength
+                    {expanded[index] ||
+                    member.description.length <=
+                      PropagandaConfig.hallOfFame.previewLength
                       ? member.description
-                      : member.description.slice(0, PropagandaConfig.hallOfFame.previewLength) + "... "}
-                    {member.description.length > PropagandaConfig.hallOfFame.previewLength && (
+                      : member.description.slice(
+                          0,
+                          PropagandaConfig.hallOfFame.previewLength
+                        ) + "... "}
+                    {member.description.length >
+                      PropagandaConfig.hallOfFame.previewLength && (
                       <button
                         onClick={() =>
                           setExpanded((prev) => ({

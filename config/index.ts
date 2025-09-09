@@ -40,16 +40,17 @@ export const AboutConfig = {
         name: "10th Special Forces Group",
         badgeSrc: "images/logos/10SFG.png",
         tagline: "Gatekeepers of Special Forces Quality",
-        description:
-          "Handles recruitment and hosts SFQC alongside CWLC.",
+        description: "Handles recruitment and hosts SFQC alongside CWLC.",
         companies: [
           {
             name: "Whiskey Company: ",
-            description: "Hosts SFQC for the 1st SFG and 10th SFG alongside CWLC.",
+            description:
+              "Hosts SFQC for the 1st SFG and 10th SFG alongside CWLC.",
           },
           {
             name: "Yankee Company: ",
-            description: "Hosts SFQC for the 5th SFG and 10th SFG alongside CWLC.",
+            description:
+              "Hosts SFQC for the 5th SFG and 10th SFG alongside CWLC.",
           },
         ],
       },
@@ -196,7 +197,8 @@ export const ContactConfig = {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
           name: "jewshoota",
-          roblox: "https://www.roblox.com/users/632121029/profile?friendshipSourceType=PlayerSearch",
+          roblox:
+            "https://www.roblox.com/users/632121029/profile?friendshipSourceType=PlayerSearch",
         },
       ],
     },
@@ -398,8 +400,7 @@ export const CoursesConfig = {
     {
       icon: Shield,
       title: "CLASSIFIED TRAINING",
-      description:
-        "No further details available.",
+      description: "No further details available.",
     },
     {
       icon: null,
@@ -1033,21 +1034,57 @@ export const PropagandaConfig = {
     { src: "images/propaganda/image14.png", credit: "Credits: ChenShohry1" },
     { src: "images/propaganda/image15.png", credit: "Credits: kazxrevenge" },
     { src: "images/propaganda/image16.png", credit: "Credits: kazxrevenge" },
-    { src: "images/propaganda/image17.png", credit: "Credits: the_rainbowman63" },
-    { src: "images/propaganda/image18.png", credit: "Credits: the_rainbowman63, @seijins, @uyjd" },
-    { src: "images/propaganda/image19.png", credit: "Credits: @teleportedduck" },
-
+    {
+      src: "images/propaganda/image17.png",
+      credit: "Credits: the_rainbowman63",
+    },
+    {
+      src: "images/propaganda/image18.png",
+      credit: "Credits: the_rainbowman63, @seijins, @uyjd",
+    },
+    {
+      src: "images/propaganda/image19.png",
+      credit: "Credits: @teleportedduck",
+    },
   ],
 
   videos: [
-    { src: "videos/asf1.mp4", credit: "mintyfreshoreo, C6mpact" },
-    { src: "videos/asf2.mp4", credit: "C6mpact" },
-    { src: "videos/asf3.mp4", credit: "mintyfreshoreo, C6mpact" },
-    { src: "videos/asf4.mp4", credit: "@kaylenyy" },
-    { src: "videos/asf5.mp4", credit: "mintyfreshoreo, C6mpact" },
-    { src: "videos/asf6.mp4", credit: "mintyfreshoreo" },
-    { src: "videos/asoc1.mp4", credit: "mintyfreshoreo" },
-
+    {
+      src: "videos/asf1.mp4",
+      credit: "mintyfreshoreo, C6mpact",
+      quote: "Enter the room. Own the fight.",
+    },
+    {
+      src: "videos/asf2.mp4",
+      credit: "C6mpact",
+      quote: "No fear. No mercy. No escape.",
+    },
+    {
+      src: "videos/asf3.mp4",
+      credit: "mintyfreshoreo, C6mpact",
+      quote: "Hunt them down.",
+    },
+    {
+      src: "videos/asf4.mp4",
+      credit: "@kaylenyy",
+      quote: "Perfection is real here.",
+    },
+    {
+      src: "videos/asf5.mp4",
+      credit: "mintyfreshoreo, C6mpact",
+      quote: "Every second. Every shot. Every move counts.",
+    },
+    {
+      src: "videos/asf6.mp4",
+      credit: "mintyfreshoreo",
+      quote: "Do you have what it takes?",
+    },
+    {
+      src: "videos/asoc1.mp4",
+      credit: "mintyfreshoreo",
+      quote:
+        "They will find you. Pray, you're going straight to the afterlife.",
+    },
   ],
 
   sections: {
