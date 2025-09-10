@@ -249,9 +249,9 @@ export const ContactConfig = {
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "N/A",
+          name: "Airport_imdeleteduo2",
           roblox:
-            "",
+            "https://www.roblox.com/users/2667322014/profile",
         },
       ],
     },
