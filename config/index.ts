@@ -639,11 +639,11 @@ export const HomeConfig = {
   ],
 
   privileges: [
-    "Access to various events such as operations, deployments, and more",
-    "Earn the Special Forces tab after passing our training program",
-    "You will be recongized as part of the best",
-    "Multiple opportunities to get promoted",
-    "You will improve on your leadership, decision-making, and combat skills",
+    "Access to events such as operations, deployments, and more",
+    "Earn the Special Forces tab after passing SFQC",
+    "Recognized as part of the elite",
+    "Various opportunities to get promoted",
+    "Improve your leadership, decision-making, and combat skills",
   ],
 
   awards: [
