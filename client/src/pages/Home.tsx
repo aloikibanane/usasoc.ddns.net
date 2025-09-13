@@ -298,7 +298,7 @@ export default function Home() {
     "joint-events": JointExerciseIcon,
     "breach-trainings": BreachingIcon,
     wargames: WargamesIcon,
-    scrimmages: ScrimmagesIcon
+    scrimmages: ScrimmagesIcon,
   };
   const events = HomeConfig.events.map((event) => ({
     ...event,
@@ -518,8 +518,7 @@ export default function Home() {
             <div className="w-24 h-1 bg-asf-accent mx-auto mb-6"></div>
             <p className="text-xl md:text-2xl text-asf-gray-light max-w-4xl mx-auto leading-relaxed">
               Join our intensive training programs and participate in unit
-              events that will transform you into an elite Special Forces
-              operator.
+              events that will improve your combative skills.
             </p>
           </motion.div>
 
@@ -635,8 +634,7 @@ export default function Home() {
             </h2>
             <div className="w-24 h-1 bg-asf-accent mx-auto mb-6"></div>
             <p className="text-xl text-asf-gray-light max-w-3xl mx-auto">
-              Discover the exceptional benefits and opportunities that await
-              elite warriors
+              Discover the exceptional benefits and opportunities that await you
             </p>
           </motion.div>
 
@@ -648,29 +646,10 @@ export default function Home() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              {[
-                {
-                  title: "Elite Status",
-                  description:
-                    "Join an elite force recognized for excellence and tactical expertise.",
-                  icon: "🎖️",
-                },
-                {
-                  title: "Brotherhood",
-                  description:
-                    "Build lifelong bonds with highly trained and committed comrades.",
-                  icon: "🤝",
-                },
-                {
-                  title: "Presidential Recognition",
-                  description:
-                    "There are reasons why the Army Special Forces has the Army Presidential Unit Citation.",
-                  icon: "🏆",
-                },
-              ].map((benefit, index) => (
+              {HomeConfig.benefits.map((benefit, index) => (
                 <motion.div
                   key={benefit.title}
-                  className="group flex items-start space-x-6 p-6 rounded-lg bg-asf-dark/30 backdrop-blur-sm hover:bg-asf-dark/50 transition-all duration-300"
+                  className="group flex items-start space-x-6 p-3 rounded-lg bg-asf-dark/30 backdrop-blur-sm hover:bg-asf-dark/50 transition-all duration-300"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
@@ -702,22 +681,16 @@ export default function Home() {
                 </h3>
                 <div className="w-16 h-1 bg-asf-accent mx-auto"></div>
               </div>
-              {[
-                "Access to operations and deployments",
-                "Advanced tactical training programs",
-                "Elite unit recognition across USAR",
-                "Opportunity for Designated Fighter status",
-                "Leadership development opportunities",
-              ].map((privilege, index) => (
+              {HomeConfig.privileges.map((privilege, index) => (
                 <motion.div
                   key={index}
-                  className="flex items-center space-x-4 group"
+                  className="flex items-start space-x-4 group"
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.5, delay: 0.4 + index * 0.1 }}
                   viewport={{ once: true }}
                 >
-                  <div className="w-3 h-3 bg-asf-accent rounded-full flex-shrink-0 group-hover:scale-125 transition-transform duration-300"></div>
+                  <div className="w-3 h-3 bg-asf-accent rounded-full flex-shrink-0 mt-2 group-hover:scale-125 transition-transform duration-300"></div>
                   <p className="text-asf-gray-light group-hover:text-white transition-colors duration-300 leading-relaxed">
                     {privilege}
                   </p>
@@ -735,7 +708,7 @@ export default function Home() {
                     READY TO SERVE?
                   </p>
                   <p className="text-asf-gray-light text-sm mt-2">
-                    The elite await your commitment
+                    We are waiting for your commitment
                   </p>
                 </div>
               </motion.div>
@@ -758,12 +731,12 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <h2 className="text-5xl md:text-7xl font-rajdhani font-black mb-6">
-              ELITE <span className="text-asf-accent">AWARDS</span>
+              BADGES & <span className="text-asf-accent">AWARDS</span>
             </h2>
             <div className="w-24 h-1 bg-asf-accent mx-auto mb-6"></div>
             <p className="text-xl md:text-2xl text-asf-gray-light max-w-4xl mx-auto leading-relaxed">
               Honor, Excellence, and Recognition - The badges and awards that
-              define our elite warriors
+              define our best.
             </p>
           </motion.div>
 

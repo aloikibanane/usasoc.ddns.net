@@ -193,7 +193,10 @@ export default function Recruitment() {
             transition={{ duration: 1, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            FREQUENTLY ASKED
+            <h2 className="text-5xl md:text-6xl font-rajdhani font-black mb-6">
+              FREQUENTLY <span className="text-asf-accent">ASKED</span>
+            </h2>
+            <div className="w-24 h-1 bg-asf-accent mx-auto mb-6"></div>
           </motion.h2>
 
           <div className="space-y-4">
