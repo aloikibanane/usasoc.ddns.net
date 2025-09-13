@@ -309,7 +309,7 @@ export const ContactConfig = {
     {
       title: "PRIMARY CHANNEL",
       description: "Discord Server - Army Special Operations Command",
-      note: "Like said, use the Army Special Operations Command communications (Discord) server for formal quesdtions and requests by filing a ticket",
+      note: "Like said, use the Army Special Operations Command communications (Discord) server for formal questions and requests by filing a ticket",
       icon: Mail,
     },
     {
@@ -329,7 +329,7 @@ export const ContactConfig = {
     },
     readyToConnect: {
       title: "READY TO CONNECT?",
-      secondaryTitle: "Get in Touch",
+      secondaryTitle: "GET IN TOUCH",
       subtitle: "Reach out to ASF leadership through official channels",
       motto: "DE OPPRESSO LIBER",
     },
@@ -640,7 +640,7 @@ export const HomeConfig = {
 
   privileges: [
     "Access to various events such as operations, deployments, and more",
-    "Get a chance to earn the Special Forces tab after passing our training program",
+    "Earn the Special Forces tab after passing our training program",
     "You will be recongized as part of the best",
     "Multiple opportunities to get promoted",
     "You will improve on your leadership, decision-making, and combat skills",
