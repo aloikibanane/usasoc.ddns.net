@@ -605,7 +605,7 @@ export const HomeConfig = {
     scrimmages: {
       title: "SCRIMMAGES",
       description:
-        "Scrimmages are events that are competitive yet friendly 5v5 engagements against other USAR units or internal squdas to evaluate team performance under pressure.",
+        "Scrimmages are events that are competitive yet friendly 5v5 engagements against other USAR units or internal squads to evaluate team performance under pressure.",
       mechanics: {
         duration: "30 minutes or more",
         participants: "Can either be all of ASF or specific squads",
