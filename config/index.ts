@@ -1056,14 +1056,10 @@ export const PropagandaConfig = {
       credit: "Credits: @teleportedduck",
     },
     {
-      src: "images/propaganda/image19.png",
-      credit: "Credits: @teleportedduck",
-    },
-    {
       src: "images/propaganda/image20.png",
       credit: "Credits: anfrarc",
     },
-  ],
+  ], 
 
   videos: [
     {
