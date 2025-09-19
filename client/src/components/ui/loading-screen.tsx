@@ -10,10 +10,10 @@ export function LoadingScreen({ onComplete }: LoadingScreenProps) {
   const [loadingText, setLoadingText] = useState("INITIALIZING...");
 
   const loadingMessages = [
+    "CONNECTING...",
     "INITIALIZING...",
-    "LOADING PAGES...",
-    "ESTABLISHING SECURE CONNECTION...",
-    "VERIFYING CLEARANCE...",
+    "LOADING...",
+    "VERIFYING...",
     "FINALIZING...",
   ];
 
