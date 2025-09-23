@@ -167,10 +167,10 @@ export const ContactConfig = {
     },
     {
       rank: "Command Sergeant Major",
-      name: "SusIsKool",
+      name: "ElijahIWilliams",
       position: "Regimental Sergeant Major",
       roblox:
-        "https://www.roblox.com/users/2854274741/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/104156319/profile?friendshipSourceType=PlayerSearch",
       insignia: "images/ranks/enlisted/E9B.png",
     },
   ],
@@ -210,16 +210,16 @@ export const ContactConfig = {
         {
           position: "Group Commanding Officer",
           rank: "Colonel",
-          name: "ElijahIWilliams",
+          name: "xRed_v",
           roblox:
-            "https://www.roblox.com/users/104156319/profile?friendshipSourceType=PlayerSearch",
+            "https://www.roblox.com/users/772617327/profile?friendshipSourceType=PlayerSearch",
         },
         {
           position: "Group Executive Officer",
           rank: "Lieutenant Colonel",
-          name: "xRed_v",
+          name: "kazxrevenge",
           roblox:
-            "https://www.roblox.com/users/772617327/profile?friendshipSourceType=PlayerSearch",
+            "https://www.roblox.com/users/859066350/profile?friendshipSourceType=PlayerSearch",
         },
         {
           position: "Group Sergeant Major",
@@ -250,7 +250,7 @@ export const ContactConfig = {
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "Airport_imdeleteduo2 (on Leave of Absence)",
+          name: "Airport_imdeleteduo2",
           roblox:
             "https://www.roblox.com/users/2667322014/profile",
         },
