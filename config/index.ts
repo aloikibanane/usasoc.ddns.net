@@ -40,46 +40,46 @@ export const AboutConfig = {
         name: "10th Special Forces Group",
         badgeSrc: "images/logos/10SFG.png",
         tagline: "Gatekeepers of Special Forces Quality",
-        description: "Handles recruitment and hosts SFQC alongside CWLC.",
+        description: "Handles recruitment and hosts the Special Forces Qualification Course (SFQC) alongside the Cold Weather Leaders Course (CWLC).",
         companies: [
           {
             name: "Whiskey Company: ",
             description:
-              "Hosts SFQC for the 1st SFG and 10th SFG alongside CWLC.",
+              "Hosts SFQC for the 1st SFG and 10th SFG alongside CWLC. Specializes in scrimmages, raids, and wargames.",
           },
           {
             name: "Yankee Company: ",
             description:
-              "Hosts SFQC for the 5th SFG and 10th SFG alongside CWLC.",
+              "Hosts SFQC for the 5th SFG and 10th SFG alongside CWLC. Specializes in MILSIM.",
           },
         ],
       },
       {
         name: "5th Special Forces Group",
         badgeSrc: "images/logos/5SFG.png",
-        tagline: "MILSIMs & Wargames Focused",
+        tagline: "Military Simulation Focused",
         description:
-          "The 5th SFG is mainly focused around MILSIM and Wargames.",
+          "The 5th SFG specializes in MILSIM.",
         companies: [
-          { name: "Echo Company: ", description: "Centered around Wargames." },
-          { name: "Delta Company: ", description: "Centered around MILSIMs." },
+          { name: "Echo Company: ", description: "Uses unconventional warfare and specializes in guerrilla warfare to attack enemies from behind and weaken them." },
+          { name: "Delta Company: ", description: "Focuses on direct action. The company that would rather go offense than defense." },
         ],
       },
       {
         name: "1st Special Forces Group",
         badgeSrc: "images/logos/1SFG.png",
-        tagline: "Scrimmage & Raid Focused",
+        tagline: "Scrimmages, Raids, and Wargames Focused",
         description:
-          "The most elite group. Specializes in scrimmages and raids, leading ASF in combat performance.",
+          "The most elite group in the Army Special Forces, specializing in scrimmages, raids, and wargames, leading ASF in combat performance.",
         companies: [
           {
             name: "Alpha Company: ",
-            description: "Elite of the elite. Focuses on Scrimmages & Raids.",
+            description: "Focuses on scrimmages and raids.",
           },
           {
             name: "Bravo Company: ",
             description:
-              "Reserved elite personnel. Focuses on Scrimmages & Raids.",
+              "Focuses on wargames.",
           },
         ],
       },
@@ -183,9 +183,9 @@ export const ContactConfig = {
         {
           position: "Group Commanding Officer",
           rank: "Colonel",
-          name: "plantspeakers",
+          name: "N/A",
           roblox:
-            "https://www.roblox.com/users/406615517/profile?friendshipSourceType=PlayerSearch",
+            "",
         },
         {
           position: "Group Executive Officer",
@@ -224,9 +224,9 @@ export const ContactConfig = {
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "N/A",
+          name: "Dead_Berry01",
           roblox:
-            "",
+            "https://www.roblox.com/users/2623771569/profile?friendshipSourceType=PlayerSearch",
         },
       ],
     },
@@ -237,9 +237,9 @@ export const ContactConfig = {
         {
           position: "Group Commanding Officer",
           rank: "Colonel",
-          name: "TjayWins",
+          name: "N/A",
           roblox:
-            "https://www.roblox.com/users/1572002202/profile?friendshipSourceType=PlayerSearch",
+            "",
         },
         {
           position: "Group Executive Officer",
@@ -425,7 +425,7 @@ export const CoursesConfig = {
       list: [
         "Active member of any USAR division and must serve 1+ month",
         "Minimum rank of E4B, Corporal",
-        "Must have a spotless record for the past 6 months",
+        "Must have a spotless record for the past 1 month",
         "Must be on desktop and have a working microphone",
       ],
     },
@@ -493,12 +493,11 @@ export const HomeConfig = {
   ],
 
   marqueeTexts: [
-    "WE FREE THE OPPRESSED",
-    "WE STRIKE FIRST",
+    "FREE THE OPPRESSED",
+    "STRIKE FIRST",
     "FEAR NO ONE",
     "KILL OR BE KILLED",
     "HONOR IN BLOOD",
-    "FEW, BUT DEADLY",
     "NO RETREAT",
   ],
   events: [
@@ -722,6 +721,16 @@ export const HomeConfig = {
       ],
     },
     {
+      name: "Army Recruiter Badge",
+      image: "images/awards/ARB.png",
+      description:
+        "Awarded to those who hold an instructor position and complete the Army Recruiter Course in the Recruiting and Retention College. In order to attend the course, you must meet the requirements and be recommended by your superiors.",
+      requirements: [
+        "Be a part of the 10th Special Forces Group",
+        "Complete the Army Recruiter Course in the Recruiting and Retention College",
+      ],
+    },
+    {
       name: "Army Master Instructor Identification Badge",
       image: "images/awards/MAIB.png",
       description:
@@ -729,6 +738,16 @@ export const HomeConfig = {
       requirements: [
         "Be a part of the 10th Special Forces Group",
         "Complete the Army Master Instructor Course in the Recruiting and Retention College",
+      ],
+    },
+    {
+      name: "Army Master Recruiter Badge",
+      image: "images/awards/MARB.png",
+      description:
+        "Awarded to those who hold an instructor position and complete the Army Master Recruiter Course in the Recruiting and Retention College, effectively demonstrating advanced expertise and leadership in developing future army personnel. In order to attend the course, you must meet the requirements and be recommended by your superiors.",
+      requirements: [
+        "Be a part of the 10th Special Forces Group",
+        "Complete the Army Master Recruiter Course in the Recruiting and Retention College",
       ],
     },
     {
@@ -796,6 +815,15 @@ export const HomeConfig = {
         "Awarded to those who attend a deployment. Specific deployments may award the soldier a unique patch. The soldier cannot earn the same deployment patch multiple times.",
       requirements: [
         "Attend a deployment approved by the Quartermaster Corps",
+      ],
+    },
+    {
+      name: "NATO Combat Service Identification Badge",
+      image: "images/awards/NCSIB.png",
+      description:
+        "Awarded to those who attend a NATO deployment. The soldier cannot earn the same deployment patch multiple times.",
+      requirements: [
+        "Attend a NATO deployment approved by Army Staff and the Quartermaster Corps",
       ],
     },
     {
@@ -1217,12 +1245,12 @@ export const RecruitmentConfig = {
     {
       step: "2",
       title: "Phase Role Request",
-      text: "Once you pass your selection or application, you will need to file a phase role request to be enrolled in SFQC within the ASF server.",
+      text: "Once you pass your selection or application, you will need to file a phase role request to be enrolled in SFQC within the ASF server (you might need to undergo a quick combat evaluation before requesting your phase roles if you passed an application).",
     },
     {
       step: "3",
       title: "SFQC Training",
-      text: "After you receive your roles, you will be placed in SFQC. You will need to complete all 3 phases designed for your specified group to graduate and become a Special Forces member.",
+      text: "After you receive your roles, you will be placed in SFQC. You will need to complete all 3 course phases designed for your specified group and/or company to graduate and become a Special Forces member.",
     },
   ],
 
@@ -1260,7 +1288,7 @@ export const RecruitmentConfig = {
     {
       question: "What does each phase in SFQC have?",
       answer:
-        "It depends on the group you're joining, you will receive more information once you're in SFQC.",
+        "It depends on the group and/or company you're joining. You will receive more information once you're in SFQC.",
     },
   ],
 };
