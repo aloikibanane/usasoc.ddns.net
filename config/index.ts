@@ -183,23 +183,23 @@ export const ContactConfig = {
         {
           position: "Group Commanding Officer",
           rank: "Colonel",
+          name: "ONEFOU_R",
+          roblox:
+            "https://www.roblox.com/users/3206949103/profile?friendshipSourceType=PlayerSearch",
+        },
+        {
+          position: "Group Executive Officer",
+          rank: "Lieutenant Colonel",
           name: "N/A",
           roblox:
             "",
         },
         {
-          position: "Group Executive Officer",
-          rank: "Lieutenant Colonel",
-          name: "jewshoota",
-          roblox:
-            "https://www.roblox.com/users/632121029/profile?friendshipSourceType=PlayerSearch",
-        },
-        {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "ONEFOU_R",
+          name: "N/A",
           roblox:
-            "https://www.roblox.com/users/3206949103/profile?friendshipSourceType=PlayerSearch",
+            "",
         },
       ],
     },
@@ -237,15 +237,14 @@ export const ContactConfig = {
         {
           position: "Group Commanding Officer",
           rank: "Colonel",
-          name: "N/A",
-          roblox:
-            "",
+          name: "GetRightDawg",
+          roblox: "https://www.roblox.com/users/902970011/profile",
         },
         {
           position: "Group Executive Officer",
           rank: "Lieutenant Colonel",
-          name: "GetRightDawg",
-          roblox: "https://www.roblox.com/users/902970011/profile",
+          name: "N/A",
+          roblox: "",
         },
         {
           position: "Group Sergeant Major",
