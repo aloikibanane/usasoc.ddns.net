@@ -1037,10 +1037,9 @@ export const PropagandaConfig = {
 
   missionHighlights: [
     {
-      videoSrc: "videos/highlight1.mp4",
-      title: "Army Staff Wargames Clutch",
+      title: "NATO Article-5 Situation",
       description:
-        "A video showing an individual named xRed_v getting flanked from both sides of a compound on WGRV, then proceeding to clutch up and win the wargames match against the 101st Airborne Division.",
+        "NATO has recently invoked Article 5 against the Russian Federation.",
     },
   ],
 
@@ -1092,12 +1091,12 @@ export const PropagandaConfig = {
     {
       src: "videos/asf1.mp4",
       credit: "mintyfreshoreo, C6mpact",
-      quote: "Enter the room. Own the fight.",
+      quote: "Own the fight.",
     },
     {
       src: "videos/asf2.mp4",
       credit: "C6mpact",
-      quote: "No fear. No mercy. No escape.",
+      quote: "Have no mercy.",
     },
     {
       src: "videos/asf3.mp4",
@@ -1107,7 +1106,7 @@ export const PropagandaConfig = {
     {
       src: "videos/asf4.mp4",
       credit: "@kaylenyy",
-      quote: "Perfection is real here.",
+      quote: "Perfection is what we are.",
     },
     {
       src: "videos/asf5.mp4",
@@ -1123,16 +1122,16 @@ export const PropagandaConfig = {
       src: "videos/asoc1.mp4",
       credit: "mintyfreshoreo",
       quote:
-        "They will find you. Pray, you're going straight to the afterlife.",
+        "You're going straight to the afterlife.",
     },
   ],
 
   sections: {
     missionHighlights: {
-      title: "MISSION HIGHLIGHTS",
+      title: "RECENT HIGHLIGHTS",
       accentWord: "HIGHLIGHTS",
       subtitle:
-        "Achievements showcasing Special Forces excellence",
+        "Showcasing Special Forces excellence or recent news",
     },
     visualGallery: {
       title: "VISUAL GALLERY",

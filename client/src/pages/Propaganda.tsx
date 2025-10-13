@@ -10,7 +10,6 @@ export default function Propaganda() {
     credit: string;
   } | null>(null);
 
-  // Independent expand state per card (index -> boolean)
   const [expanded, setExpanded] = useState<Record<number, boolean>>({});
 
   return (
@@ -130,14 +129,12 @@ export default function Propaganda() {
               viewport={{ once: true }}
             >
               <div className="w-full aspect-video rounded-lg overflow-hidden shadow-lg bg-asf-dark">
-                <video
-                  controls
-                  className="w-full h-full object-cover bg-asf-dark"
-                  preload="metadata"
-                >
-                  <source src={highlight.videoSrc} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                <img
+                  src="/images/propaganda/image21.png"
+                  alt={highlight.title}
+                  className="w-full h-full object-contain bg-asf-dark"
+                  loading="lazy"
+                />
               </div>
 
               <h3 className="text-2xl font-rajdhani font-bold text-asf-accent mb-2">
