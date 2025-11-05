@@ -70,7 +70,7 @@ export const AboutConfig = {
         badgeSrc: "images/logos/1SFG.png",
         tagline: "Scrimmages, Raids, and Wargames Focused",
         description:
-          "The most elite group in the Army Special Forces, specializing in scrimmages, raids, and wargames, leading ASF in combat performance.",
+          "The most elite group in the Army Special Forces, specializing in scrimmages, raids, TPS, and wargames, leading ASF in combat performance.",
         companies: [
           {
             name: "Alpha Company: ",
@@ -79,7 +79,7 @@ export const AboutConfig = {
           {
             name: "Bravo Company: ",
             description:
-              "Focuses on wargames.",
+              "Focuses on TPS and wargames.",
           },
         ],
       },
@@ -124,18 +124,18 @@ export const ContactConfig = {
     },
     {
       rank: "Lieutenant General",
-      name: "NasDaily_Alpha",
+      name: "Alexis13480",
       position: "Deputy Commanding General",
       roblox:
-        "https://www.roblox.com/users/553357381/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/553012024/profile?friendshipSourceType=PlayerSearch",
       insignia: "images/ranks/officer/O9.png",
     },
     {
       rank: "Command Sergeant Major",
-      name: "Alexis13480",
+      name: "nutncrunch",
       position: "Command Sergeant Major",
       roblox:
-        "https://www.roblox.com/users/553012024/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/148528430/profile?friendshipSourceType=PlayerSearch",
       insignia: "images/ranks/enlisted/E9B.png",
     },
     {
@@ -190,16 +190,16 @@ export const ContactConfig = {
         {
           position: "Group Executive Officer",
           rank: "Lieutenant Colonel",
-          name: "N/A",
+          name: "Michael_Grinston",
           roblox:
-            "",
+            "https://www.roblox.com/users/2418125984/profile?friendshipSourceType=PlayerSearch",
         },
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "N/A",
+          name: "KrabsTM",
           roblox:
-            "",
+            "https://www.roblox.com/users/2818827894/profile?friendshipSourceType=PlayerSearch",
         },
       ],
     },
@@ -243,15 +243,15 @@ export const ContactConfig = {
         {
           position: "Group Executive Officer",
           rank: "Lieutenant Colonel",
-          name: "N/A",
-          roblox: "",
+          name: "Airport_imdeleteduo2",
+          roblox: "https://www.roblox.com/users/2667322014/profile",
         },
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "Airport_imdeleteduo2",
+          name: "AloikiBane",
           roblox:
-            "https://www.roblox.com/users/2667322014/profile",
+            "https://www.roblox.com/users/564975496/profile?friendshipSourceType=PlayerSearch",
         },
       ],
     },
@@ -1256,7 +1256,7 @@ export const RecruitmentConfig = {
     {
       question: "How long does SFQC take?",
       answer:
-        "The Special Forces Qualification Course is divided into 3 phases for each group. You are required to complete the pipeline under a week. Failure to do so, without notice, will result in a removal from the course.",
+        "The Special Forces Qualification Course is divided into 3 phases for each group/company. You are required to complete the pipeline under a week. Failure to do so, without notice, will result in a removal from the course.",
     },
     {
       question: "Is SFQC hard?",
