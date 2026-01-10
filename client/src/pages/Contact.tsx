@@ -154,7 +154,7 @@ export default function Contact() {
             </p>
           </motion.div>
 
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-2 gap-8">
             {ContactConfig.groups.map((group, index) => (
               <motion.div
                 key={index}

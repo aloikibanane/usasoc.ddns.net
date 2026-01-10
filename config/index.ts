@@ -32,54 +32,43 @@ export const AboutConfig = {
     title: "OUR",
     accentWord: "GROUPS",
     subtitle:
-      "Three elite Special Forces Groups, each with specialized missions and standards",
-    gridCols: 3,
+      "Two elite Special Forces Groups, each with specialized missions and standards",
+    gridCols: 2,
     animation: { duration: 0.8 },
     groups: [
       {
-        name: "10th Special Forces Group",
-        badgeSrc: "images/logos/10SFG.png",
-        tagline: "Gatekeepers of Special Forces Quality",
-        description: "Handles recruitment and hosts the Special Forces Qualification Course (SFQC) alongside the Cold Weather Leaders Course (CWLC).",
+        name: "7th Special Forces Group",
+        badgeSrc: "images/logos/7SFG.png",
+        tagline: "Lo Que Sea, Cuando Sea, Donde Sea",
+        description: "The 7SFG is both the training pillar of the ASF and one of the most lethal forces within the TPS world. Through its two highly specialized companies, it delivers instruction in counter-terrorism, unconventional warfare, and advanced tactical operations, while simultaneously serving as USAR’s elite strike and raid element.",
         companies: [
           {
-            name: "Whiskey Company: ",
+            name: "Helios Company: ",
             description:
-              "Hosts SFQC for the 1st SFG and 10th SFG alongside CWLC. Specializes in scrimmages, raids, and wargames.",
+              "Specializes in Third Person Shooter games.",
           },
           {
-            name: "Yankee Company: ",
+            name: "Kilo Company: ",
             description:
-              "Hosts SFQC for the 5th SFG and 10th SFG alongside CWLC. Specializes in MILSIM.",
+              "Handles all training programs in ASF, including the Special Forces Qualification Course and the Cold Weather Leaders Course.",
           },
-        ],
-      },
-      {
-        name: "5th Special Forces Group",
-        badgeSrc: "images/logos/5SFG.png",
-        tagline: "Military Simulation Focused",
-        description:
-          "The 5th SFG specializes in MILSIM.",
-        companies: [
-          { name: "Echo Company: ", description: "Uses unconventional warfare and specializes in guerrilla warfare to attack enemies from behind and weaken them." },
-          { name: "Delta Company: ", description: "Focuses on direct action. The company that would rather go offense than defense." },
         ],
       },
       {
         name: "1st Special Forces Group",
         badgeSrc: "images/logos/1SFG.png",
-        tagline: "Scrimmages, Raids, and Wargames Focused",
+        tagline: "De Oppresso Liber",
         description:
-          "The most elite group in the Army Special Forces, specializing in scrimmages, raids, TPS, and wargames, leading ASF in combat performance.",
+          "The most elite group in ASF, specializing in scrimmages, raids, and wargames, leading the entire unit to victory in terms of combat. It is one of the most highly elite units within USAR, as there are very high combat expectations within the group. Members are trained for their specific roles.",
         companies: [
           {
             name: "Alpha Company: ",
-            description: "Focuses on scrimmages and raids.",
+            description: "Specializes in scrimmages and raids.",
           },
           {
             name: "Bravo Company: ",
             description:
-              "Focuses on TPS and wargames.",
+              "Specializes in wargames.",
           },
         ],
       },
@@ -116,18 +105,18 @@ export const ContactConfig = {
   overseer: [
     {
       rank: "General",
-      name: "FairwelIs",
+      name: "Alexis13480",
       position: "Commanding General",
       roblox:
-        "https://www.roblox.com/users/2326467240/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/553012024/profile?friendshipSourceType=PlayerSearch",
       insignia: "images/ranks/officer/O10.png",
     },
     {
       rank: "Lieutenant General",
-      name: "Alexis13480",
+      name: "JoshyWagner",
       position: "Deputy Commanding General",
       roblox:
-        "https://www.roblox.com/users/553012024/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/1816986602/profile?friendshipSourceType=PlayerSearch",
       insignia: "images/ranks/officer/O9.png",
     },
     {
@@ -140,10 +129,10 @@ export const ContactConfig = {
     },
     {
       rank: "Major General",
-      name: "ACertain_Nobody",
+      name: "appll_s",
       position: "Chief of Staff",
       roblox:
-        "https://www.roblox.com/users/85610835/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/42605812/profile?friendshipSourceType=PlayerSearch",
       insignia: "images/ranks/officer/O8.png",
     },
   ],
@@ -151,26 +140,26 @@ export const ContactConfig = {
   hicomMembers: [
     {
       rank: "Major General",
-      name: "JoshyWagner",
+      name: "ElijahIWilliams",
       position: "Commanding Officer",
       roblox:
-        "https://www.roblox.com/users/1816986602/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/104156319/profile?friendshipSourceType=PlayerSearch",
       insignia: "images/ranks/officer/O8.png",
     },
     {
       rank: "Brigadier General",
-      name: "ElvinAyhan",
+      name: "GetRightDawg",
       position: "Executive Officer",
       roblox:
-        "https://www.roblox.com/users/375199292/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/902970011/profile",
       insignia: "images/ranks/officer/O7.png",
     },
     {
       rank: "Command Sergeant Major",
-      name: "ElijahIWilliams",
+      name: "N/A",
       position: "Regimental Sergeant Major",
       roblox:
-        "https://www.roblox.com/users/104156319/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/",
       insignia: "images/ranks/enlisted/E9B.png",
     },
   ],
@@ -183,75 +172,48 @@ export const ContactConfig = {
         {
           position: "Group Commanding Officer",
           rank: "Colonel",
-          name: "ONEFOU_R",
+          name: "deceptonist",
           roblox:
-            "https://www.roblox.com/users/3206949103/profile?friendshipSourceType=PlayerSearch",
+            "https://www.roblox.com/users/52482015/profile?friendshipSourceType=PlayerSearch",
         },
         {
           position: "Group Executive Officer",
           rank: "Lieutenant Colonel",
-          name: "Michael_Grinston",
+          name: "N/A",
           roblox:
-            "https://www.roblox.com/users/2418125984/profile?friendshipSourceType=PlayerSearch",
+            "https://www.roblox.com/",
         },
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "KrabsTM",
+          name: "Kazxru",
           roblox:
-            "https://www.roblox.com/users/2818827894/profile?friendshipSourceType=PlayerSearch",
+            "https://www.roblox.com/users/201764467/profile?friendshipSourceType=PlayerSearch",
         },
       ],
     },
     {
-      name: "5th Special Forces Group",
-      src: "images/logos/5SFG.png",
-      leadership: [
-        {
-          position: "Group Commanding Officer",
-          rank: "Colonel",
-          name: "xRed_v",
-          roblox:
-            "https://www.roblox.com/users/772617327/profile?friendshipSourceType=PlayerSearch",
-        },
-        {
-          position: "Group Executive Officer",
-          rank: "Lieutenant Colonel",
-          name: "kazxrevenge",
-          roblox:
-            "https://www.roblox.com/users/859066350/profile?friendshipSourceType=PlayerSearch",
-        },
-        {
-          position: "Group Sergeant Major",
-          rank: "Sergeant Major",
-          name: "Dead_Berry01",
-          roblox:
-            "https://www.roblox.com/users/2623771569/profile?friendshipSourceType=PlayerSearch",
-        },
-      ],
-    },
-    {
-      name: "10th Special Forces Group",
+      name: "7th Special Forces Group",
       src: "images/logos/10SFG.png",
       leadership: [
         {
           position: "Group Commanding Officer",
           rank: "Colonel",
-          name: "GetRightDawg",
-          roblox: "https://www.roblox.com/users/902970011/profile",
+          name: "AloikiBane",
+          roblox: "https://www.roblox.com/users/564975496/profile?friendshipSourceType=PlayerSearch",
         },
         {
           position: "Group Executive Officer",
           rank: "Lieutenant Colonel",
-          name: "Airport_imdeleteduo2",
-          roblox: "https://www.roblox.com/users/2667322014/profile",
+          name: "ismo5252",
+          roblox: "https://www.roblox.com/users/1186065541/profile?friendshipSourceType=PlayerSearch",
         },
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "AloikiBane",
+          name: "jeanneang01",
           roblox:
-            "https://www.roblox.com/users/564975496/profile?friendshipSourceType=PlayerSearch",
+            "https://www.roblox.com/users/1251730723/profile?friendshipSourceType=PlayerSearch",
         },
       ],
     },
@@ -1037,9 +999,9 @@ export const PropagandaConfig = {
 
   missionHighlights: [
     {
-      title: "NATO Article-5 Situation",
+      title: "Unavailable :(",
       description:
-        "NATO has recently invoked Article 5 against the Russian Federation.",
+        "No recent highlights have occured yet...",
     },
   ],
 
