@@ -194,7 +194,7 @@ export const ContactConfig = {
     },
     {
       name: "7th Special Forces Group",
-      src: "images/logos/10SFG.png",
+      src: "images/logos/7SFG.png",
       leadership: [
         {
           position: "Group Commanding Officer",
