@@ -156,10 +156,10 @@ export const ContactConfig = {
     },
     {
       rank: "Command Sergeant Major",
-      name: "N/A",
+      name: "PlainDepth",
       position: "Regimental Sergeant Major",
       roblox:
-        "https://www.roblox.com/",
+        "https://www.roblox.com/users/752782608/profile?friendshipSourceType=PlayerSearch",
       insignia: "images/ranks/enlisted/E9B.png",
     },
   ],
