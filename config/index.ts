@@ -917,7 +917,7 @@ export const FooterConfig = {
     subtitle: "To Free the Oppressed",
     description:
       "Elite warriors dedicated to unconventional warfare, special reconnaissance, and counter-terrorism operations worldwide.",
-    websiteCredits: ["@getr1ghtdawg", "@notorioussoh"],
+    websiteCredits: ["@getr1ghtdawg", "@notorioussoh", "@mr.banon"],
   },
 
   quickLinks: [
