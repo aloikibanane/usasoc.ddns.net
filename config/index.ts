@@ -121,10 +121,10 @@ export const ContactConfig = {
     },
     {
       rank: "Command Sergeant Major",
-      name: "nutncrunch",
+      name: "ElijahIWilliams",
       position: "Command Sergeant Major",
       roblox:
-        "https://www.roblox.com/users/148528430/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/104156319/profile",
       insignia: "images/ranks/enlisted/E9B.png",
     },
     {
@@ -140,26 +140,26 @@ export const ContactConfig = {
   hicomMembers: [
     {
       rank: "Major General",
-      name: "ElijahIWilliams",
+      name: "PlainDepth",
       position: "Commanding Officer",
       roblox:
-        "https://www.roblox.com/users/104156319/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/752782608/profile?friendshipSourceType=PlayerSearch",
       insignia: "images/ranks/officer/O8.png",
     },
     {
       rank: "Brigadier General",
-      name: "GetRightDawg",
+      name: "AloikiBane",
       position: "Executive Officer",
       roblox:
-        "https://www.roblox.com/users/902970011/profile",
+        "https://www.roblox.com/users/564975496/profile",
       insignia: "images/ranks/officer/O7.png",
     },
     {
       rank: "Command Sergeant Major",
-      name: "PlainDepth",
+      name: "Kazxru",
       position: "Regimental Sergeant Major",
       roblox:
-        "https://www.roblox.com/users/752782608/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/201764467/profile",
       insignia: "images/ranks/enlisted/E9B.png",
     },
   ],
@@ -179,16 +179,16 @@ export const ContactConfig = {
         {
           position: "Group Executive Officer",
           rank: "Lieutenant Colonel",
-          name: "N/A",
+          name: "FireDeceptonist",
           roblox:
-            "https://www.roblox.com/",
+            "https://www.roblox.com/users/2066022300/profile",
         },
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "Kazxru",
+          name: "N/A",
           roblox:
-            "https://www.roblox.com/users/201764467/profile?friendshipSourceType=PlayerSearch",
+            "",
         },
       ],
     },
@@ -199,8 +199,8 @@ export const ContactConfig = {
         {
           position: "Group Commanding Officer",
           rank: "Colonel",
-          name: "AloikiBane",
-          roblox: "https://www.roblox.com/users/564975496/profile?friendshipSourceType=PlayerSearch",
+          name: "N/A",
+          roblox: "",
         },
         {
           position: "Group Executive Officer",
@@ -1154,6 +1154,13 @@ export const PropagandaConfig = {
         expanded: false,
         description:
           "has been serving in ASF since August 22, 2024, up until August 22, 2025. He quickly became one of ASF's most impactful members. Recognized multiple times as Personnel of the Week, he was appointed as ASF’s Head Developer, creating games and maps for the community, including for the CWLC. Ever since his enlistment, he has been recognized across the ASF community for his dedication, creativity, and unwavering hard work.",
+      },
+      {
+        username: "GetRightDawg",
+        robloxId: 902970011,
+        expanded: false,
+        description:
+          "has been in ASF since the 9th of July, 2025, and had been eager to prove himself as a leader within ASF. His career started out in the 10th Special Forces Group as a mere instructor, quickly working his way up the ladder as he achieved his goal of becoming an XO. His biggest achievements included the restructuring of SFQC, creating the ASF website and becoming a permanent figure within the community. Even though he was discharged for unspeakable reasons ASF would not be what it is today without his hard work and courage.",
       },
     ],
   },
