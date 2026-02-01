@@ -108,7 +108,7 @@ export const ContactConfig = {
       name: "Alexis13480",
       position: "Commanding General",
       roblox:
-        "https://www.roblox.com/users/553012024/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/553012024/profile",
       insignia: "images/ranks/officer/O10.png",
     },
     {
@@ -116,7 +116,7 @@ export const ContactConfig = {
       name: "JoshyWagner",
       position: "Deputy Commanding General",
       roblox:
-        "https://www.roblox.com/users/1816986602/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/1816986602/profile",
       insignia: "images/ranks/officer/O9.png",
     },
     {
@@ -132,7 +132,7 @@ export const ContactConfig = {
       name: "appll_s",
       position: "Chief of Staff",
       roblox:
-        "https://www.roblox.com/users/42605812/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/42605812/profile",
       insignia: "images/ranks/officer/O8.png",
     },
   ],
@@ -143,7 +143,7 @@ export const ContactConfig = {
       name: "PlainDepth",
       position: "Commanding Officer",
       roblox:
-        "https://www.roblox.com/users/752782608/profile?friendshipSourceType=PlayerSearch",
+        "https://www.roblox.com/users/752782608/profile",
       insignia: "images/ranks/officer/O8.png",
     },
     {
@@ -174,7 +174,7 @@ export const ContactConfig = {
           rank: "Colonel",
           name: "deceptonist",
           roblox:
-            "https://www.roblox.com/users/52482015/profile?friendshipSourceType=PlayerSearch",
+            "https://www.roblox.com/users/52482015/profile",
         },
         {
           position: "Group Executive Officer",
@@ -186,9 +186,9 @@ export const ContactConfig = {
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "N/A",
+          name: "evildonna",
           roblox:
-            "",
+            "https://www.roblox.com/users/1371963932/profile",
         },
       ],
     },
@@ -199,21 +199,21 @@ export const ContactConfig = {
         {
           position: "Group Commanding Officer",
           rank: "Colonel",
-          name: "N/A",
-          roblox: "",
+          name: "ismo5252",
+          roblox: "https://www.roblox.com/users/1186065541/profile",
         },
         {
           position: "Group Executive Officer",
           rank: "Lieutenant Colonel",
-          name: "ismo5252",
-          roblox: "https://www.roblox.com/users/1186065541/profile?friendshipSourceType=PlayerSearch",
+          name: "Neroxxox",
+          roblox: "https://www.roblox.com/users/769830630/profile",
         },
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
           name: "jeanneang01",
           roblox:
-            "https://www.roblox.com/users/1251730723/profile?friendshipSourceType=PlayerSearch",
+            "https://www.roblox.com/users/1251730723/profile",
         },
       ],
     },
