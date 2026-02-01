@@ -286,7 +286,7 @@ export const ContactConfig = {
       title: "SPECIAL FORCES GROUPS",
       accentWord: "GROUPS",
       subtitle:
-        "Three elite groups, each with dedicated leadership",
+        "Two elite groups, each with dedicated leadership",
     },
     readyToConnect: {
       title: "READY TO CONNECT?",
