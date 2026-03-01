@@ -105,26 +105,26 @@ export const ContactConfig = {
   overseer: [
     {
       rank: "General",
-      name: "Alexis13480",
+      name: "JoshyWagner",
       position: "Commanding General",
       roblox:
-        "https://www.roblox.com/users/553012024/profile",
+        "https://www.roblox.com/users/1816986602/profile",
       insignia: "images/ranks/officer/O10.png",
     },
     {
       rank: "Lieutenant General",
-      name: "JoshyWagner",
+      name: "ElijahIWilliams",
       position: "Deputy Commanding General",
       roblox:
-        "https://www.roblox.com/users/1816986602/profile",
+        "https://www.roblox.com/users/104156319/profile",
       insignia: "images/ranks/officer/O9.png",
     },
     {
       rank: "Command Sergeant Major",
-      name: "ElijahIWilliams",
+      name: "VACANT",
       position: "Command Sergeant Major",
       roblox:
-        "https://www.roblox.com/users/104156319/profile",
+        "VACANT",
       insignia: "images/ranks/enlisted/E9B.png",
     },
     {
@@ -140,10 +140,10 @@ export const ContactConfig = {
   hicomMembers: [
     {
       rank: "Major General",
-      name: "PlainDepth",
+      name: "Kazxru",
       position: "Commanding Officer",
       roblox:
-        "https://www.roblox.com/users/752782608/profile",
+        "https://www.roblox.com/users/201764467/profile",
       insignia: "images/ranks/officer/O8.png",
     },
     {
@@ -156,10 +156,10 @@ export const ContactConfig = {
     },
     {
       rank: "Command Sergeant Major",
-      name: "Kazxru",
+      name: "jeanneang01",
       position: "Regimental Sergeant Major",
       roblox:
-        "https://www.roblox.com/users/201764467/profile",
+        "https://www.roblox.com/users/1251730723/profile",
       insignia: "images/ranks/enlisted/E9B.png",
     },
   ],
@@ -199,21 +199,21 @@ export const ContactConfig = {
         {
           position: "Group Commanding Officer",
           rank: "Colonel",
-          name: "ismo5252",
-          roblox: "https://www.roblox.com/users/1186065541/profile",
-        },
-        {
-          position: "Group Executive Officer",
-          rank: "Lieutenant Colonel",
           name: "Neroxxox",
           roblox: "https://www.roblox.com/users/769830630/profile",
         },
         {
+          position: "Group Executive Officer",
+          rank: "Lieutenant Colonel",
+          name: "WolfFlyer13",
+          roblox: "https://www.roblox.com/users/3837434867/profile",
+        },
+        {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "jeanneang01",
+          name: "VACANT",
           roblox:
-            "https://www.roblox.com/users/1251730723/profile",
+            "VACANT",
         },
       ],
     },
