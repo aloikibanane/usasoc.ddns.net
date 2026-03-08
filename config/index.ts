@@ -121,10 +121,10 @@ export const ContactConfig = {
     },
     {
       rank: "Command Sergeant Major",
-      name: "VACANT",
+      name: "FriX_0z",
       position: "Command Sergeant Major",
       roblox:
-        "VACANT",
+        "https://www.roblox.com/users/341598145/profile",
       insignia: "images/ranks/enlisted/E9B.png",
     },
     {
