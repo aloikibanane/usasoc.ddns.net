@@ -50,7 +50,7 @@ export function LoadingScreen({ onComplete }: LoadingScreenProps) {
         <div className="animate-pulse-glow mb-8">
           <div className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 animate-bounce-in overflow-hidden">
             <img
-              snrc="/images/logos/Badge.png"
+              src="images/logos/Badge.png"
               alt="Circle Image"
               className="w-full h-full object-contain"
             />
