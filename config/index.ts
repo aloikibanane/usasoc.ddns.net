@@ -211,9 +211,9 @@ export const ContactConfig = {
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "VACANT",
+          name: "SoilderWar11",
           roblox:
-            "VACANT",
+            "https://www.roblox.com/users/2578585455/profile",
         },
       ],
     },
