@@ -1047,6 +1047,14 @@ export const PropagandaConfig = {
       src: "images/propaganda/image20.png",
       credit: "Credits: anfrarc",
     },
+    {
+      src: "images/propaganda/image22.png",
+      credit: "Credits: adyans_alt",
+    },
+    {
+      src: "images/propaganda/image23.png",
+      credit: "Credits: adyans_alt",
+    },
   ], 
 
   videos: [
