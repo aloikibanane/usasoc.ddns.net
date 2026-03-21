@@ -172,9 +172,9 @@ export const ContactConfig = {
         {
           position: "Group Commanding Officer",
           rank: "Colonel",
-          name: "deceptonist",
+          name: "evildonaa",
           roblox:
-            "https://www.roblox.com/users/52482015/profile",
+            "https://www.roblox.com/users/1371963932/profile",
         },
         {
           position: "Group Executive Officer",
@@ -186,9 +186,9 @@ export const ContactConfig = {
         {
           position: "Group Sergeant Major",
           rank: "Sergeant Major",
-          name: "evildonna",
+          name: "ryanhongamertoney",
           roblox:
-            "https://www.roblox.com/users/1371963932/profile",
+            "https://www.roblox.com/users/163763327/profile",
         },
       ],
     },
