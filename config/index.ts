@@ -113,7 +113,7 @@ export const ContactConfig = {
     },
     {
       rank: "Lieutenant General",
-      name: "Cocksucker",
+      name: "ElijahIWilliams",
       position: "Deputy Commanding General",
       roblox:
         "https://www.roblox.com/users/104156319/profile",
