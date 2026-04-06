@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- Banner (soon) -->
 <p align="center">
   <img src="" alt="" />
@@ -135,3 +136,6 @@ It serves as the **official website** showcasing ASF’s operations, recruitment
 View LICENSE for more information.
 
 ---
+=======
+# usasoc.ddns.net
+>>>>>>> 4c9519166c3d2aaf7a5818b7694cb0337ce6b1e8
