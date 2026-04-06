@@ -52,8 +52,8 @@
   --asf-gray-dark: hsl(0, 0%, 13.3%);
   --asf-gray: hsl(0, 0%, 40%);
   --asf-gray-light: hsl(0, 0%, 80%);
-  --asf-accent: hsl(45, 100%, 70%);
-  --asf-accent-dark: hsl(45, 100%, 55%);
+  --asf-accent: hsl(0, 83%, 34%);
+  --asf-accent-dark: hsl(0, 74%, 40%);
 
   /* Fonts */
   --font-inter: "Inter", sans-serif;
