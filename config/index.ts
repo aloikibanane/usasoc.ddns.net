@@ -135,6 +135,14 @@ export const ContactConfig = {
         "https://www.roblox.com/users/42605812/profile",
       insignia: "images/ranks/officer/O8.png",
     },
+    {
+      rank: "Brigadier General",
+      name: "VACANT",
+      position: "Deputy Chief of Staff",
+      roblox:
+        "",
+      insignia: "images/ranks/officer/O7.png",
+    },
   ],
 
   hicomMembers: [
